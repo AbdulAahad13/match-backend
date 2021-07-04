@@ -20,7 +20,7 @@ mongoose.connect(connection_url, {
 
 //api endpoints
 app.get('/', (req, res) => {
-    res.status(200).send('hello programmers')
+    res.status(200).send('hello saffat')
 });
 
 app.post('/match/cards', (req, res) => {
